@@ -15,4 +15,7 @@ class Character {
   }
 }
 
-export default Character;
+const character = new Character('Маг');
+console.log(character);
+character.levelUp();
+console.log(character);
